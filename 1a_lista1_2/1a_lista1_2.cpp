@@ -1,20 +1,30 @@
-// 1a_lista1_2.cpp : Este arquivo contém a função 'main'. A execução do programa começa e termina ali.
-//
+//Lista de atividade de Linguagem de Programação 2021.1
+//Disciplina Ministrada em 2021.1 Pelo Prof Caio
+//Implementação dos Scripts por Antônio Aguiar - Engenharia Elétrica
+//1a_lista1_2.cpp : Este arquivo contém a função 'main'.
+//A execução do programa começa e termina ali.
 
 #include <iostream>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int num1, num2, num3;
+        float media;
+    std::cout << "Digite 3 numeros para calcularmos a media \n";
+   
+    std::cout << "1o Numero: \n";
+    std::cin >> num1;
+    
+    std::cout << "2o Numero: \n";
+    std::cin >> num2;
+    
+    std::cout << "3o Numero: \n";
+    std::cin >> num3;
+
+    media = (num1 + num2 + num3) / 3;
+    
+    std::cout << "A media dos tres numeros e: \n";
+    std::cout << media;
+
+return 0;
 }
-
-// Executar programa: Ctrl + F5 ou Menu Depurar > Iniciar Sem Depuração
-// Depurar programa: F5 ou menu Depurar > Iniciar Depuração
-
-// Dicas para Começar: 
-//   1. Use a janela do Gerenciador de Soluções para adicionar/gerenciar arquivos
-//   2. Use a janela do Team Explorer para conectar-se ao controle do código-fonte
-//   3. Use a janela de Saída para ver mensagens de saída do build e outras mensagens
-//   4. Use a janela Lista de Erros para exibir erros
-//   5. Ir Para o Projeto > Adicionar Novo Item para criar novos arquivos de código, ou Projeto > Adicionar Item Existente para adicionar arquivos de código existentes ao projeto
-//   6. No futuro, para abrir este projeto novamente, vá para Arquivo > Abrir > Projeto e selecione o arquivo. sln
