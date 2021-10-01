@@ -10,4 +10,5 @@ int main()
 {
     std::cout << "ooooooooi...\n";
 
+return 0;
 }
